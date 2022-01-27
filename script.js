@@ -26,7 +26,7 @@ array.push(web);//appending the array with mudkip
     
 let rps = {
     name:"Rock Paper Scissors",
-    link:"https:github.com/spokenprim618/rockpaperscissors/tree/glitch",
+    link:"https://spokenprim618.github.io/rockpaperscissors/",
     descriptionText:"Rock Paper Sciccors on the web against random input. Used HTML, CSS, and Jquery.",
     cardColor:"rgb(94, 193, 235",  
     imgPath:"images/rps.png",
