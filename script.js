@@ -40,7 +40,7 @@ function createCardDiv(cardObject) {
    let card = document.createElement('div');
    card.className="card";
    card.style.backgroundColor = cardObject.cardColor;
-   card.style.width="16.21%";
+   card.style.width="24%";
   
   
     let cardText =document.createElement('div');
@@ -52,8 +52,10 @@ function createCardDiv(cardObject) {
     lin.href= cardObject.link;
 
     let cardIMG =document.createElement('div');
+
     let newIMG=document.createElement("img");
-    newIMG.style.width="200px";
+    newIMG.className="cardimg";
+
     newIMG.src=cardObject.imgPath;
     lin.appendChild(newIMG);
     cardIMG.appendChild(lin);
