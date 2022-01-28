@@ -3,7 +3,7 @@ let array = [];
 
 let sdo = {
     name:"Servicedog.org",
-    link:"https://github.com/spokenprim618/servicedog.org",
+    link:"https://spokenprim618.github.io/servicedog.org/,
 
     descriptionText:"Final group website project about service Dogs in New York. Used CSS, JS, HTML, and API.",
     cardColor:"rgb(94, 193, 235",    
@@ -11,18 +11,18 @@ let sdo = {
     
 };
 
-array.push(sdo);//appending the array with mudkip
+array.push(sdo);
 
 let web = {
     name:"Personal Website",
-    link:"https://github.com/spokenprim618/my-personal-website",
+    link:"https://spokenprim618.github.io/my-personal-website/,
     descriptionText:"Multi paged website during All Star Code used CSS, JS, and HTML with a group of students.",
     cardColor:"rgb(94, 193, 235",    
     imgPath:"images/web.png",
         
 };
 
-array.push(web);//appending the array with mudkip
+array.push(web);
     
 let rps = {
     name:"Rock Paper Scissors",
@@ -40,8 +40,7 @@ function createCardDiv(cardObject) {
    let card = document.createElement('div');
    card.className="card";
    card.style.backgroundColor = cardObject.cardColor;
-   card.style.width="24%";
-  
+   card.style.width="24%"; 
   
     let cardText =document.createElement('div');
     let cardName=document.createElement('p');
@@ -67,14 +66,12 @@ function createCardDiv(cardObject) {
     card.appendChild(desc);
 
 
-//problem with image again
     return card;
 }
 
-
-for(let i = 0; i < array.length; i++) {//line 33 calls createCardDiv() creating a newCard div
+for(let i = 0; i < array.length; i++) {
     let newCard = createCardDiv(array[i]);
 
    let title = document.querySelector('.title');
-    title.appendChild(newCard);// appends the new card to the #containerDiv in the HTML
+    title.appendChild(newCard);
 }
