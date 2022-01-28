@@ -3,7 +3,7 @@ let array = [];
 
 let sdo = {
     name:"Servicedog.org",
-    link:"https://spokenprim618.github.io/servicedog.org/,
+    link:"https://spokenprim618.github.io/servicedog.org/",
 
     descriptionText:"Final group website project about service Dogs in New York. Used CSS, JS, HTML, and API.",
     cardColor:"rgb(94, 193, 235",    
