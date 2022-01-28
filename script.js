@@ -15,7 +15,7 @@ array.push(sdo);
 
 let web = {
     name:"Personal Website",
-    link:"https://spokenprim618.github.io/my-personal-website/,
+    link:"https://spokenprim618.github.io/my-personal-website/",
     descriptionText:"Multi paged website during All Star Code used CSS, JS, and HTML with a group of students.",
     cardColor:"rgb(94, 193, 235",    
     imgPath:"images/web.png",
